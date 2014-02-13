@@ -37,12 +37,12 @@ function calculate(){
 
             t = 0;
 
-            s = performance.now();
-
             if (!ru.selectorText || ru.selectorText[0] === '@') {
                 //todo - skip selectors started from @ char: ie @font-face { font-family: Helvetica; }
                 continue;
             }
+
+            s = performance.now();
 
             els = document.querySelectorAll(ru.selectorText);
 
