@@ -1,0 +1,13 @@
+{
+  "appName": {
+    "message": "CSS Perf",
+    "description": "CSS Performance analysis"
+  },
+  "appDescription": {
+    "message": "CSS Performance analysis",
+    "description": "CSS Performance analysis utility"
+  },
+  "pageActionTitle" : {
+    "message" : "CSS Perf"
+  }
+}
